@@ -3,82 +3,172 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main Page</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/stylis.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#Studio">Studio</a></li>
-          <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo link" href="./index.html"
+          ><span class="header-logo-color">Web</span>Studio</a
+        >
+        <ul class="header-menu-list list">
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="./index.html">Studio</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link link" href="#Contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-address">
+        <ul class="header-soc-list list">
+          <li class="header-soc-item">
+            <a class="header-soc-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li class="header-soc-item">
+            <a class="header-soc-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <button type="button">All</button>
-        <a href="web">Web Site</a>
-        <a href="App">App</a>
-        <a href="Design">Design</a>
-        <a href="Marketing">Marketing</a>
+      <section class="active">
+        <button class="active-btn" type="button">All</button>
+        <a href="#web" class="active-two-btn">Web Site</a>
+        <a href="#App" class="active-two-btn">App</a>
+        <a href="#Design" class="active-two-btn">Design</a>
+        <a href="#Marketing" class="active-two-btn">Marketing</a>
       </section>
-      <section>
-        <h2 hidden>Project</h2>
-        <ul>
-          <li>
-            <img src="./images/" alt="Banking" />
-            <h2>Banking App Interface Concept</h2>
-            <p>App</p>
+      <section class="section-Label">
+        <h2 class="visually-hidden">Project</h2>
+        <ul class="section-lot-list list">
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img1.jpg"
+                alt="Banking"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Banking App Interface Concept</h3>
+              <p class="section-app-text">App</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Cashless " />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img2.jpg"
+                alt="Cashless"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Cashless Payment</h3>
+              <p class="section-app-text">Marketing</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Meditaion" />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img3.jpg"
+                alt="Meditaion"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Meditation App</h3>
+              <p class="section-app-text">App</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Taxi" />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img4.jpg"
+                alt="Taxi"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Taxi Service</h3>
+              <p class="section-app-text">Marketing</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Screen " />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img5.jpg"
+                alt="Screen "
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Screen Illustrations</h3>
+              <p class="section-app-text">Design</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Online" />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img6.jpg"
+                alt="Online"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Online Courses</h3>
+              <p class="section-app-text">Marketing</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Instagram" />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img7.jpg"
+                alt="Instagram"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Instagram Stories Concept</h3>
+              <p class="section-app-text">Design</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Organic" />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img8.jpg"
+                alt="Organic"
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Organic Food</h3>
+              <p class="section-app-text">Web Site</p>
+            </a>
           </li>
-          <li>
-            <img src="./images/" alt="Coffee " />
-            <h2></h2>
-            <p></p>
+          <li class="section-soc-item">
+            <a class="section-ref link" href="#"
+              ><img
+                src="./images/project-img9.jpg"
+                alt="Coffee "
+                width="360"
+                height="300"
+              />
+              <h3 class="section-sub-title">Fresh Coffee</h3>
+              <p class="section-app-text">Web Site</p>
+            </a>
           </li>
         </ul>
       </section>

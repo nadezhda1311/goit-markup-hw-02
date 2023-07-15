@@ -1,6 +1,17 @@
+.root {
+  --navi_blue: #2e2f42;
+  --cloud: #f4f4fd;
+  --border-cornflower: #e7e9fc;
+  --accent-iris: #4d5ae5;
+  --pressed_state-ocean: #404bbf;
+  --main-slate: #434455;
+  --bg_page-white: #ffffff;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
+  background-color: var(--bg_page-white);
+  color: var(--main-slate);
 }
 
 .list {
@@ -47,6 +58,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--pressed_state-ocean);
+}
+
 .header-soc-link {
   color: var(--slate, #434455);
   /* Body */
@@ -58,7 +74,6 @@ body {
 }
 
 /**----------------HERO-------------*/
-
 .hero {
   background-color: var(--navyblue, #2e2f42);
 }
@@ -115,7 +130,9 @@ body {
   text-transform: capitalize;
 }
 /**-----------TEAM----------*/
-
+.team {
+  background: var(--cloud, #f4f4fd);
+}
 .team-title {
   color: var(--navyblue, #2e2f42);
   /* Header 2 */
@@ -126,6 +143,9 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.team-item {
+  background: var(--white, #fff);
 }
 .team-our-title {
   color: var(--navyblue, #2e2f42);
@@ -169,6 +189,49 @@ body {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/***------------PORTFOLIO-------------*/
+
+/**-----------------ACTIVE-----------*/
+.active-btn {
+  color: var(--white, #fff);
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--ocean, #404bbf);
+}
+.active-two-btn {
+  color: var(--iris, #4d5ae5);
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+}
+.section-sub-title {
+  color: var(--navyblue, #2e2f42);
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-app-text {
+  color: var(--slate, #434455);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
