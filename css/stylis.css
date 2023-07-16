@@ -19,7 +19,7 @@ body {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 .link {
   text-decoration: none;
@@ -64,7 +64,7 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--pressed_state-ocean);
+  color: var(--ocean);
 }
 
 .header-soc-link {
@@ -200,7 +200,7 @@ body {
 /***------------PORTFOLIO-------------*/
 
 /**-----------------ACTIVE-----------*/
-.active-btn {
+.galery-btn {
   color: var(--white, #fff);
   text-align: center;
   /* Button Text */
@@ -211,7 +211,7 @@ body {
   letter-spacing: 0.04em;
   background: var(--ocean, #404bbf);
 }
-.active-two-btn {
+.galery-all-btn {
   color: var(--iris, #4d5ae5);
   /* Button Text */
   font-family: Roboto;
