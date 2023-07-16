@@ -16,6 +16,7 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: var(--brand-color4);
   color: #434455;
+  background-color: #fff;
 }
 
 .list {
@@ -105,6 +106,7 @@ body {
   color: var(--white, #fff);
   /* Button Text */
   font-family: inherit;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -137,6 +139,7 @@ body {
   /* Header 2 */
   text-align: center;
   font-family: "Roboto";
+  cursor: pointer;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
