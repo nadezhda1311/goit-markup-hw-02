@@ -15,7 +15,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: var(--bg_page-white);
-  color: #434455;
 }
 
 .list {
@@ -64,7 +63,7 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: var(--ocean);
+  color: var(--ocean, #404bbf);
 }
 
 .header-soc-link {
@@ -200,7 +199,7 @@ body {
 /***------------PORTFOLIO-------------*/
 
 /**-----------------ACTIVE-----------*/
-.galery-btn {
+.galery-btn-filter {
   color: var(--white, #fff);
   text-align: center;
   /* Button Text */
@@ -222,7 +221,7 @@ body {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
 }
-.section-sub-title {
+.section-galery-title {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
   font-family: Roboto;
@@ -231,7 +230,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.section-app-text {
+.section-galery-text {
   color: var(--slate, #434455);
   /* Body */
   font-family: Roboto;
