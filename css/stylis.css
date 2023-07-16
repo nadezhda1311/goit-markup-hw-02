@@ -233,8 +233,8 @@ body {
 }
 .galery-btn-title:hover,
 .galery-btn-title:focus {
-  color: #fff;
-  background-color: #404bbf;
+  color: #404bbf;
+  background-color: #fff;
 }
 .galery-btn-link {
   color: var(--iris, #4d5ae5);
@@ -251,7 +251,8 @@ body {
 }
 .galery-btn-link:hover,
 .galery-btn-link:focus {
-  color: #404bbf;
+  color: #fff;
+  background-color: #404bbf;
 }
 .section-galery-title {
   color: var(--navyblue, #2e2f42);
