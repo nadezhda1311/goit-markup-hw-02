@@ -1,17 +1,21 @@
-.root {
-  --navi_blue: #2e2f42;
+:root {
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --green: #31d0aa;
+  --lightslate: #8e8f99;
+  --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
-  --border-cornflower: #e7e9fc;
-  --accent-iris: #4d5ae5;
-  --pressed_state-ocean: #404bbf;
-  --main-slate: #434455;
-  --bg_page-white: #ffffff;
+  --navyblue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   background-color: var(--bg_page-white);
-  color: var(--main-slate);
+  color: #434455;
 }
 
 .list {
