@@ -15,6 +15,8 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   background-color: var(--bg_page-white);
+  color: #434455;
+  color: #ffffff;
 }
 
 .list {
@@ -205,12 +207,15 @@ body {
   /* Button Text */
   font-family: Roboto;
   cursor: pointer;
-  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background: var(--ocean, #404bbf);
+}
+.galery-btn-filter:hover,
+.galery-btn-filter:focus {
+  color: #fff;
 }
 .galery-all-btn {
   color: var(--iris, #4d5ae5);
@@ -224,6 +229,10 @@ body {
   letter-spacing: 0.04em;
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
+}
+.galery-all-btn:hover,
+.galery-all-btn:focus {
+  color: #404bbf;
 }
 .section-galery-title {
   color: var(--navyblue, #2e2f42);
@@ -241,4 +250,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer-logo {
+  color: var(--cloud, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
