@@ -13,10 +13,10 @@
   --dairy: #fcfcfc;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway";
   background-color: var(--bg_page-white);
-  color: #434455;
-  color: #ffffff;
+  color: var(--main-cl);
 }
 
 .list {
@@ -24,6 +24,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: currentColor;
 }
 
 .visually-hidden {
@@ -43,7 +44,7 @@ body {
 /**----------------HEADER--------------*/
 
 .header-logo {
-  color: var(--navyblue, #2e2f42);
+  color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -52,7 +53,7 @@ body {
   text-transform: uppercase;
 }
 .header-logo-color {
-  color: var(--iris, #4d5ae5);
+  color: var(--navyblue, #2e2f42);
 }
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
@@ -72,10 +73,14 @@ body {
   color: var(--slate, #434455);
   /* Body */
   font-family: Roboto;
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
 }
 
 /**----------------HERO-------------*/
@@ -217,7 +222,7 @@ body {
 .galery-btn-filter:focus {
   color: #fff;
 }
-.galery-all-btn {
+.galery-btn-link {
   color: var(--iris, #4d5ae5);
   /* Button Text */
   font-family: Roboto;
