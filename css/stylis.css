@@ -75,7 +75,12 @@ body {
 .header-menu-link:focus {
   color: var(--ocean, #404bbf);
 }
-
+.link {
+  text-decoration: none;
+}
+.header-address {
+  font-style: normal;
+}
 .header-soc-link {
   color: var(--slate, #434455);
   /* Body */
@@ -117,9 +122,12 @@ body {
   letter-spacing: 0.04em;
   background: var(--iris, #4d5ae5);
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 
 /**------------------ADVANTAGES------------*/
-
 .advantages-sub-title {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
@@ -250,8 +258,7 @@ body {
 }
 .galery-btn-link:hover,
 .galery-btn-link:focus {
-  color: #fff;
-  background-color: #404bbf;
+  color: #404bbf;
 }
 .section-galery-title {
   color: var(--navyblue, #2e2f42);
