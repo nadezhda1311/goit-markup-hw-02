@@ -222,10 +222,12 @@ body {
 .galery-btn-list {
   text-decoration: none;
 }
-.galery-btn-item-all {
+.btn-item {
   color: var(--white, #fff);
   text-align: center;
   /* Button Text */
+  font-family: inherit;
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -233,8 +235,9 @@ body {
   border-radius: 4px;
   background-color: #404bbf;
 }
-.galery-btn-item-all:hover,
-.galery-btn-item-all:focus {
+.btn-item:hover,
+.btn-item:focus {
+  color: #fff;
   color: var(--iris, #4d5ae5);
 }
 .galery-btn-item {
