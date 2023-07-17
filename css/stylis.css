@@ -228,22 +228,22 @@ body {
   /* Button Text */
   font-family: inherit;
   cursor: pointer;
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
   background: var(--ocean, #404bbf);
 }
 .galery-btn-title:hover,
 .galery-btn-title:focus {
-  color: #fff;
   background-color: #404bbf;
 }
-.galery-btn-link {
+.galery-btn-item {
   color: var(--iris, #4d5ae5);
   /* Button Text */
   font-family: inherit;
-  cursor: pointer;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -252,8 +252,8 @@ body {
   border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
 }
-.galery-btn-link:hover,
-.galery-btn-link:focus {
+.galery-btn-item:hover,
+.galery-btn-item:focus {
   color: #404bbf;
 }
 .section-galery-title {
