@@ -223,22 +223,19 @@ body {
   text-decoration: none;
 }
 .galery-btn-item-all {
-  color: #4d5ae5;
   color: var(--white, #fff);
-  /* Button Text */
-  font-family: inherit;
-  cursor: pointer;
   text-align: center;
+  /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  background: var(--ocean, #404bbf);
+  background-color: #404bbf;
 }
 .galery-btn-item-all:hover,
 .galery-btn-item-all:focus {
-  background-color: #404bbf;
+  color: var(--iris, #4d5ae5);
 }
 .galery-btn-item {
   color: var(--iris, #4d5ae5);
