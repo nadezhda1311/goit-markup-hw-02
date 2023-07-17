@@ -75,9 +75,7 @@ body {
 .header-menu-link:focus {
   color: var(--ocean, #404bbf);
 }
-.link {
-  text-decoration: none;
-}
+
 .header-address {
   font-style: normal;
 }
@@ -93,9 +91,6 @@ body {
 .header-soc-link:hover,
 .header-soc-link:focus {
   color: var(--ocean, #0015ff);
-}
-.link {
-  text-decoration: none;
 }
 
 /**----------------HERO-------------*/
