@@ -46,7 +46,6 @@ body {
 
 .header-logo {
   color: var(--iris, #4d5ae5);
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -59,7 +58,6 @@ body {
 .header-menu-link {
   color: var(--navyblue, #2e2f42);
   /* Body Medium */
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -72,9 +70,8 @@ body {
 }
 
 .header-soc-link {
-  color: var(--slate, #434455);
+  color: var(--slate, #353879);
   /* Body */
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -83,7 +80,7 @@ body {
 }
 .header-soc-link:hover,
 .header-soc-link:focus {
-  color: var(--ocean, #404bbf);
+  color: var(--ocean, #0015ff);
 }
 .link {
   text-decoration: none;
@@ -97,7 +94,6 @@ body {
   color: var(--white, #fff);
   text-align: center;
   /* Header 1 */
-  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -120,7 +116,6 @@ body {
 .advantages-sub-title {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
-  font-family: "Roboto", serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -129,7 +124,6 @@ body {
 .advantages-item-text {
   color: var(--slate, #434455);
   /* Body */
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -139,7 +133,6 @@ body {
   color: var(--navyblue, #2e2f42);
   /* Header 2 */
   text-align: center;
-  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-size: 36px;
   font-weight: 700;
@@ -155,7 +148,6 @@ body {
   color: var(--navyblue, #2e2f42);
   /* Header 2 */
   text-align: center;
-  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -168,7 +160,6 @@ body {
 .team-our-title {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -177,7 +168,6 @@ body {
 .team-item-text {
   color: var(--slate, #434455);
   /* Body */
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -191,7 +181,6 @@ body {
 }
 .footer-logo {
   color: var(--cloud, #f4f4fd);
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -200,7 +189,6 @@ body {
 }
 .footer-logo-color {
   color: var(--iris, #4d5ae5);
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -210,7 +198,6 @@ body {
 .footer-item-text {
   color: var(--cloud, #f4f4fd);
   /* Body */
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -240,7 +227,6 @@ body {
 .galery-btn-link {
   color: var(--iris, #4d5ae5);
   /* Button Text */
-  font-family: "Roboto", sans-serif;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
@@ -257,7 +243,6 @@ body {
 .section-galery-title {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -266,7 +251,6 @@ body {
 .section-galery-text {
   color: var(--slate, #434455);
   /* Body */
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
