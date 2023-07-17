@@ -239,7 +239,8 @@ body {
 }
 .galery-btn-item:hover,
 .galery-btn-item:focus {
-  color: #404bbf;
+  color: var(--white, #fff);
+  background: var(--ocean, #404bbf);
 }
 .section-galery-title {
   color: var(--navyblue, #2e2f42);
