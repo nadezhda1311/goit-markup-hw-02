@@ -28,20 +28,6 @@ body {
   color: currentColor;
 }
 
-/*.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}*/
-
 /**----------------HEADER--------------*/
 
 .header-logo {
@@ -223,22 +209,21 @@ body {
   text-decoration: none;
 }
 .btn-item {
-  color: var(--white, #fff);
-  text-align: center;
+  color: var(--iris, #4d5ae5);
   /* Button Text */
   font-family: inherit;
-  cursor: pointer;
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  background-color: #404bbf;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
 }
 .btn-item:hover,
 .btn-item:focus {
-  color: #fff;
-  color: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  background: var(--ocean, #404bbf);
 }
 .galery-btn-item {
   color: var(--iris, #4d5ae5);
