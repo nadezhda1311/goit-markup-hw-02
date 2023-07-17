@@ -228,6 +228,7 @@ body {
   text-decoration: none;
 }
 .galery-btn-title {
+  color: #4d5ae5;
   color: var(--white, #fff);
   /* Button Text */
   font-family: inherit;
@@ -237,6 +238,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: #f4f4fd;
   background: var(--ocean, #404bbf);
 }
 .galery-btn-title:hover,
