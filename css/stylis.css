@@ -13,7 +13,8 @@
   --dairy: #fcfcfc;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--brand-color4);
   color: #434455;
   background-color: #fff;
@@ -222,7 +223,7 @@ body {
 .galery-btn-title {
   color: var(--white, #fff);
   /* Button Text */
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   cursor: pointer;
   text-align: center;
   font-size: 16px;
