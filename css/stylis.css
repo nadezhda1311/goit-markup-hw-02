@@ -226,24 +226,6 @@ body {
   color: var(--white, #fff);
   background: var(--ocean, #404bbf);
 }
-.galery-btn-item {
-  color: var(--iris, #4d5ae5);
-  /* Button Text */
-  font-family: inherit;
-  text-align: center;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--cloud, #f4f4fd);
-}
-.galery-btn-item:hover,
-.galery-btn-item:focus {
-  color: var(--white, #fff);
-  background: var(--ocean, #404bbf);
-}
 .section-galery-title {
   color: var(--navyblue, #2e2f42);
   /* Header 3 */
