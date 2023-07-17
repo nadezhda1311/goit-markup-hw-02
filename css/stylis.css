@@ -28,7 +28,7 @@ body {
   color: currentColor;
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -40,7 +40,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 /**----------------HEADER--------------*/
 
@@ -150,7 +150,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-/**-----------TEAM----------*/
+/**-----------TEAM-----------------*/
 .team {
   background: var(--cloud, #f4f4fd);
 }
@@ -222,7 +222,7 @@ body {
 .galery-btn-list {
   text-decoration: none;
 }
-.galery-btn-title {
+.galery-btn-item-all {
   color: #4d5ae5;
   color: var(--white, #fff);
   /* Button Text */
@@ -236,8 +236,8 @@ body {
   border-radius: 4px;
   background: var(--ocean, #404bbf);
 }
-.galery-btn-title:hover,
-.galery-btn-title:focus {
+.galery-btn-item-all:hover,
+.galery-btn-item-all:focus {
   background-color: #404bbf;
 }
 .galery-btn-item {
